@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mr. Hungry</title>
+    <!-- Bootstrap Css Link -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!--Favicone-->
+    <link rel="shortcut icon" href="./image/logo/logo-icon.svg" type="image/x-icon">
+    <!--Google Fonts link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700;900&display=swap" rel="stylesheet">
+    <!--Font Awesome CDN link-->
+    <script src="https://kit.fontawesome.com/a0d3957510.js" crossorigin="anonymous"></script>
+    <!--Custome Css link-->
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <!-- Header section code start from here -->
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light nav-bg-color site-font-family">
+            <div class="container">
+                <a class="navbar-brand d-inline-flex align-items-center" href="#">
+                    <img src="./image/logo/logo-icon.svg" alt="" width="30" height="38">
+                    <span class="fs-2 ms-2 fw-bold logo-text-gradient">MR. HUNGRY</span>
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse map-area" id="navbarSupportedContent">
+                    <p class="location mx-auto mb-2 mb-lg-0 rounded-3 px-3 py-2 custom-shadow-1">
+                        <span class="fw-bold">Deliver to: </span>
+                        <span class="mx-2"><i class="fas fa-map-marker-alt main-color"></i></span>
+                        <span class="me-1">Current Location</span>
+                        <span class="fw-bold">Gulshan 2 Bus Stand, Dhaka</span>
+                    </p>
+                    <span class="position-relative">
+                        <form class="d-flex">
+                            <input class="px-3 py-2 rounded-3 me-2 custom-shadow-1 bg-transparent border-0 my-form" type="search" placeholder="Search Food" aria-label="Search">
+                            <i class="fas fa-search position-absolute main-color" style="right: 20px;
+                                bottom: 13px;"></i>
+                        </form>
+                    </span>
+                    <!-- Button trigger modal -->
+                    <div>
+                        <button type="button" class="btn btn-white main-color coustom-btn-shadow px-3 py-2 position-relative fw-bold ms-3" data-bs-toggle="modal" data-bs-target="#exampleModal"><i class="fas fa-user main-color me-2" style="right: 173px;
+                        bottom: 29px;"></i>
+                            Login
+                        </button>
+                    </div>
+                    <!-- Modal -->
+                    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content nav-bg-color">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="exampleModalLabel">Plese Login Your Account</h5>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body my-form">
+                                    <div class="form-floating mb-3">
+                                        <input type="email" class="form-control custom-shadow-1 bg-transparent border-0" id="floatingInput" placeholder="name@example.com">
+                                        <label for="floatingInput">Email address</label>
+                                    </div>
+                                    <div class="form-floating">
+                                        <input type="password" class="form-control custom-shadow-1 bg-transparent border-0" id="floatingPassword" placeholder="Password">
+                                        <label for="floatingPassword">Password</label>
+                                    </div>
+                                    <div class="text-end">
+                                        <a href="#">Forget Passwoard?</a>
+                                    </div>
+                                    <div class="text-end">
+                                        <a href="#">Register</a>
+                                    </div>
+                                </div>
+                                <div class="text-end m-3">
+                                <button type="button" class="btn main-bg-color text-light px-3 py-2 fw-bold coustom-btn-shadow" data-bs-dismiss="modal">Close</button>
+                                <button type="button" class="btn btn-white main-color coustom-btn-shadow px-3 py-2 ms-3 fw-bold">Login</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="dropdown ms-3">
+                        <button class="btn btn-white main-color coustom-btn-shadow px-3 py-2 fw-bold dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                            <i class="fas fa-bars main-color me-2" style="right: 173px;
+                        bottom: 29px;"></i>
+                          Menu
+                        </button>
+                        <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                          <li><a class="dropdown-item" href="#">Home</a></li>
+                          <li><a class="dropdown-item" href="#">Offers</a></li>
+                          <li><a class="dropdown-item" href="#">Foods</a></li>
+                          <li><a class="dropdown-item" href="#">Category</a></li>
+                          <li><a class="dropdown-item" href="#">Resturant</a></li>
+                          <li><a class="dropdown-item" href="#">Blogs</a></li>
+                          <li><a class="dropdown-item" href="#">Order Now</a></li>
+                          <li><a class="dropdown-item" href="#">FAQ</a></li>
+                          <li><a class="dropdown-item" href="#">Brances</a></li>
+                        </ul>
+                      </div>
+                </div>
+            </div>
+        </nav>
+        <div class="baner-section main-bg-color py-5">
+            <div class="container">
+                <div class="row d-flex align-items-center">
+                    <div class="col-md-6">
+                        <div class="banner-details">
+                            <h1 class="fw-bold">Are You Hungry Now?</h1>
+                            <p>It's the food you love, food for every mood, delivered</p>
+                            <form class="py-5 my-5 border-4 rounded-3 nav-bg-color px-1">
+                                <div class="banner-delivery">
+                                    <div class="banner-btn">
+                                        <a href="#" class="bg-white rounded-3 px-3 py-2 fw-bold main-color text-decoration-none"><i class="fas fa-motorcycle me-2" style="right: 173px;
+                                            bottom: 29px;"></i>Delivery</a>
+                                        <a href="#" class="bg-white rounded-3 px-3 py-2 fw-bold main-color text-decoration-none mx-3"><i class="fas fa-shopping-bag me-2" style="right: 173px;
+                                            bottom: 29px;"></i>Pickup</a>
+                                    </div>
+                                </div>
+                                <hr>
+                                <span>
+                                    <input class="w-75 px-3 py-2 rounded-3 mt-4 custom-shadow-1 bg-transparent border-0 my-form position-relative" type="text" placeholder="Enter Your Address...">
+                                    <i class="fas fa-map-marker-alt position-absolute"></i>
+                                </span>
+                                <span>
+                                    <a href="#" class="main-bg-color rounded-3 px-3 py-2 fw-bold text-white  text-decoration-none coustom-btn-shadow">Find Food</a>
+                                </span>   
+                            </form>    
+                        </div>  
+                    </div>
+                    <div class="col-md-6">
+                        <img src="./image/banner.png" class="img-fluid" alt="banner-img">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- Header section code end here -->
+    
+    <!-- Main section code start from here -->
+    <main>
+
+    </main>
+    <!-- Main section code end here -->
+    <!-- Footer section code start from here -->
+    <footer>
+
+    </footer>
+    <!-- Footer section code end here -->
+
+    <!-- Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>
