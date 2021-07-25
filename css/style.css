@@ -47,9 +47,70 @@
     font-size: 72px;
     font-weight: 900;
     color: white;
+    font-family: 'Source Sans Pro', sans-serif;
 }
 .baner-section p{
     font-size: 24px;
     font-weight: 400;
     color: rgba(107, 100, 100, 0.904);
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+/***********************************
+ Offer section css start from here 
+ ***********************************/
+ .offer-section h5{
+    color: rgba(107, 100, 100, 0.904);
+    font-family: 'Source Sans Pro', sans-serif;
+ }
+ .offer-section p{
+    color: #6c757d;
+    font-family: 'Source Sans Pro', sans-serif;
+ }
+ .offer-section span{
+     color: white;
+     font-size: 18px;
+    font-family: 'Source Sans Pro', sans-serif;
+ }
+ /***********************************
+ Offer section css end here 
+ ***********************************/
+
+
+#order-process{
+    padding: 60px 0px;
+    background: linear-gradient(180deg, #64de8f -42.47%, rgba(253, 237, 202, 0) 100%);
+    text-align: center;
+}
+#order-process i{
+    font-size: 80px;
+    padding: 20px 0px;
+}
+#order-process h1{
+    font-size: 50px;
+    font-weight: 700;
+    font-family: 'Source Sans Pro', sans-serif;
+    padding: 20px 0px;
+}
+
+.popular-item{
+    padding:80px 0px;
+}
+.popular-item h2{
+    text-align: center;
+    font-weight: 700;
+    font-size: 42px;
+    font-family: 'Source Sans Pro', sans-serif;
+    padding: 30px 0px;
+}
+.popular-item img{
+    width: 100%;
+}
+.popular-item .card-footer{
+    cursor: pointer;
+}
+.popular-item h5{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: bold;
+    padding: 10px 0px 0px 0px
 }
