@@ -158,6 +158,9 @@
  featured-resturants css end here 
  ***********************************/
 
+ /***********************************
+ search-food css start from here 
+ ***********************************/
 .search-food{
     padding: 80px 0px;
     text-align: center;
@@ -171,7 +174,9 @@
 .search-food img{
     border-radius: 50%;
 }
-
+ /***********************************
+ search-food css start end here 
+ ***********************************/
 
 #download-section{
     background-color: #64de8f;
@@ -183,11 +188,62 @@
 }
 
 
-
+ /***********************************
+ main-order css start from here 
+ ***********************************/
 #main-order{
     background: url(../image/back-img.png);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
+}
+ /***********************************
+main-order css end here 
+ ***********************************/
+ .branch-location ul  a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-size: 18px;
+    font-weight: 600;
+    font-family: 'Source Sans Pro', sans-serif;
+ }
+.follow-us ul a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-size: 18px;
+    font-weight: 600;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.branch-location ul a, .follow-us ul a:hover{
+    color: white;
+}
+.icons ul{
+    padding-left: 0px;
+}
+
+.media-section .icons ul li{
+    background-color: rgb(255, 255, 255);
+    height: 36px;
+    width:36px;
+    display: inline-block;
+    list-style: none;
+    border-radius: 40%;
+    
+    text-align: center;
+}
+.media-section .icons li a i{
+    color: #64de8f;
+    position:relative;
+    bottom: -6px;
+}
+.icons li a i:hover{
+    color: #ff0202;
+}
+.newsletter input:focus{
+    outline: none;
+}
+.newsletter button:hover{
+    background-color: tomato;
+    color: white;
 }
