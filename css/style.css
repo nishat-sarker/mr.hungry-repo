@@ -181,3 +181,13 @@
     background-color: white;
     padding: 20px;
 }
+
+
+
+#main-order{
+    background: url(../image/back-img.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
